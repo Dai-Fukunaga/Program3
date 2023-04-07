@@ -1,0 +1,28 @@
+Code:
+%t1 = 2 * 3
+%t2 = 1 + %t1
+%t3 = 4 % 5
+%t4 = %t3 / 6
+%t5 = %t2 - %t4
+%t6 = char2int 'a'
+%t7 = %t6 * 2
+%t8 = char2int 'b'
+%t9 = %t7 % %t8
+%t10 = int2float %t9
+%t11 = %t10 / 3.000000
+%t12 = int2float 1
+%t13 = %t12 + %t11
+%t14 = int2float 4
+%t15 = %t13 - %t14
+%t16 = negate 1
+%t17 = negate 3
+%t18 = %t17 * 6
+%t19 = %t16 + %t18
+%t20 = negate 5.900000
+%t21 = negate 'c'
+%t22 = char2int %t21
+%t23 = int2float %t22
+%t24 = %t20 * %t23
+%t25 = int2float %t19
+%t26 = %t25 + %t24
+

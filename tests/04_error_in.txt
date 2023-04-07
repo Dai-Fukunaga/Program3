@@ -1,0 +1,4 @@
+i; // not declared
+int j;
+j = 1.0 % 2; // cannot use % to float
+char j = 'a' + i; // declare same variable again

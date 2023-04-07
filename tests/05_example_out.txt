@@ -1,0 +1,10 @@
+Code:
+%t1 = int2float 2
+num = %t1
+denom = 3
+%t2 = int2float denom
+%t3 = num / %t2
+%t4 = int2float 4
+%t5 = %t3 * %t4
+%t6 = float2int %t5
+result = %t6

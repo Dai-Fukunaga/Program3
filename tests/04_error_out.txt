@@ -1,0 +1,4 @@
+'i' was not declared
+cannot use % to float
+cannot declare the same variable
+Code:
