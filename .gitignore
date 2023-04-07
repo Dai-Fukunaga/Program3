@@ -4,3 +4,4 @@ lexer.o
 parser.cc
 parser.hh
 parser.o
+*.zip
